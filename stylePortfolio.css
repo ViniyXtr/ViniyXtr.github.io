@@ -1,0 +1,211 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    max-width: 1920px; 
+}
+body{
+    margin: 30px;
+}
+.intro h1{
+font-size: 60px;
+padding-bottom: 0;
+margin-bottom: 0;
+}
+.intro h3{
+    padding-top: 0;
+    margin-top: 0;
+    font-size: 20px;
+    color: gray;
+}
+ul li{
+    list-style-type: none;
+}
+table{
+text-align: center;
+border-collapse: collapse;
+align-items: center;
+font-size: 20px;
+border: 5px solid black;
+}
+th{
+    text-align: center;
+    border: 5px solid black;
+    padding: 20px ;
+    margin: 0 auto;
+    font-size: 30px;
+}
+td{
+    border: 5px solid black;
+    text-align: center;
+    padding: 30px;
+    margin: 0 auto;
+}
+tr{
+    border: 5px solid black;
+    text-align: center;
+    padding: 0px;
+    margin: 0 auto;
+}
+.PersonalInfo{
+    padding: 20px;
+}
+.PersonalInfo li{
+    padding: 5px;
+    font-size: 25px;
+}
+.PersonalInfo h2{
+    background-color: blue;
+    width:580px;
+    border-bottom-right-radius: 15px;
+    padding: 15px;
+    font-size: 50px;
+
+}
+.bio p{
+font-size: 20px;
+width: 900px;
+}
+.bio h2{
+    background-color: blue;
+    width:130px;
+    border-bottom-right-radius: 15px;
+    padding: 15px;
+    font-size: 50px;
+}
+.SchoolBackground{
+    padding: 20px;
+}
+.SchoolBackground h2{
+    background-color: blue;
+    width:580px;
+    border-bottom-right-radius: 15px;
+    padding: 15px;
+    font-size: 50px;
+
+}
+.skillshead{
+    padding: 20px;
+}
+.skills{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+}
+.skillshead h2{
+    background-color:green;
+    color: white;
+    width:250px;
+    border-bottom-right-radius: 20px;
+    padding: 15px;
+    font-size: 50px;
+
+}
+.skillsInner{
+    padding: 20px;
+    height: 500px;
+    width: 500px;
+    background-color:rgb(240, 240, 240);
+    border-radius: 25px;
+    
+
+}
+.WorkExperience ol li p{
+    font-size: 20px;
+}
+.WorkExperience ol li h4{
+   font-size:  25px;
+}
+.WorkExperience ul li{
+font-size: 15px;
+}
+.WorkExperience h2{
+    background-color:green;
+    color: white;
+    width:450px;
+    border-bottom-right-radius: 20px;
+    padding: 15px;
+    font-size: 50px;
+}
+.WorkExperience h3{
+    background-color:yellow;
+    width:250px;
+    border-bottom-right-radius: 20px;
+    padding: 15px;
+    font-size: 25px;
+}
+.referees ol li p{
+    font-size: 20px;
+}
+.referees h2{
+    background-color:green;
+    color: white;
+    width:250px;
+    border-bottom-right-radius: 20px;
+    padding: 15px;
+    font-size: 50px;
+}
+footer{
+    text-align: center;
+}
+hr#big{
+    width: 280px;
+}
+hr#small{
+    width:100px;
+}
+hr#Xsmall{
+    width:33px;
+}
+ul.W_EXP li{
+    list-style-type: disc;
+    font-size: 20px;
+}
+.skillsInner ul{
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.skillsInner ul li{
+    padding: 5px;
+text-align: center;
+font-size: 20px;
+}
+.skillsInner h3{
+    text-align: center;
+    background-color: black;
+    color: yellow;
+    padding: 15px;
+    border: 4px solid yellow;
+    font-size:25px;
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 2s;
+    animation-name: fade;
+    animation-duration: 2s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+    
